@@ -1,0 +1,62 @@
+body{
+    background-color: whitesmoke;
+  }
+  #timer {
+    font-size: 2em;
+    text-align: center;
+   background-color: black;
+   padding: 10px 10px 7px 5px;
+   width: 400px;
+color: white;
+border-radius: 10px 5px;
+  }
+  span{
+    color: olive;
+  }
+  img{
+width: 500px;
+margin-top: 10px;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+  }
+  .first{
+    display: block;
+  }
+  nav{
+    position: sticky;
+    padding: 10px 10px 15px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+  }
+  button{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  button:hover{
+    background-color:black;
+    width: 100px;
+    height: 42px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+  }
+  h3{
+    color: olive;
+  }
